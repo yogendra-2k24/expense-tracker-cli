@@ -1,0 +1,14 @@
+[
+    {
+        "amount": 310.0,
+        "category": "Stationary"
+    },
+    {
+        "amount": 200.0,
+        "category": "Travel"
+    },
+    {
+        "amount": 2500.0,
+        "category": "Rent"
+    }
+]
