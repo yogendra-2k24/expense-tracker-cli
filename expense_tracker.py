@@ -5,6 +5,12 @@ expenses = []
 def add_expense():
     amount = float(input("Enter Amount: "))
     category = input("Enter Category: ")
+
+    for expense in expenses:
+        if expense["category"].lower() == category.lower():
+            expense["amount"] += amount
+            print("Expense updated successfully!\n")
+            return
     
     expense = {
         "amount" : amount,
